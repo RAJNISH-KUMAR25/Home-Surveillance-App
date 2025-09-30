@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frag_emergency"
+    android:background="#f5f5f5">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true"
+        android:src="@drawable/map1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="253dp"
+        android:text="Emergency Response"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#fff"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/beep"
+            />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="25dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="65dp"
+            android:src="@drawable/alert" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Activate Siren"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="17dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#fff"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/friend"
+            android:orientation="horizontal" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="65dp"
+            android:src="@drawable/baseline_add_call_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Call a Friend"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="17dp" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.783">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Fire"
+            android:layout_width="96dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:backgroundTint="#fff"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fire"
+                android:textSize="22dp"
+                android:textColor="#000"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="20dp"/>
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_marginTop="20dp"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/flame" />
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Police"
+            android:layout_width="96dp"
+            android:backgroundTint="#fff"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginLeft="12dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Police"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/police1" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Medical"
+            android:layout_width="99dp"
+            android:layout_height="150dp"
+            android:backgroundTint="#fff"
+            app:cardCornerRadius="15dp"
+
+            android:layout_marginLeft="12dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medical"
+                android:textSize="22dp"
+                android:textColor="#000"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="65dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="12dp"
+                android:layout_height="60dp"
+                android:src="@drawable/hospital" />
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <WebView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/webview"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

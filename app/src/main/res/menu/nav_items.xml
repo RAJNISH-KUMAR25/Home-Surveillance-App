@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:title="Dashboard"
+        android:icon="@drawable/home"/>
+    <item android:id="@+id/nav_feed"
+        android:title="Feed"
+        android:icon="@drawable/feed"/>
+    <item android:id="@+id/nav_emergeny"
+        android:title="Emergency"
+        android:icon="@drawable/emercency"/>
+    <item android:id="@+id/nav_devices"
+        android:title="Devices"
+        android:icon="@drawable/phone"/>
+    <item android:id="@+id/nav_Routines"
+        android:title="Profile"
+        android:icon="@drawable/routine"/>
+</menu>

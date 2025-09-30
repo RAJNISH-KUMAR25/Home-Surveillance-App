@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "220512746104",
+    "project_id": "code-cf299",
+    "storage_bucket": "code-cf299.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220512746104:android:2a215237bdb4499ceb8b8d",
+        "android_client_info": {
+          "package_name": "com.example.code"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCViTO12sAVqQAPO_qjv9zNFV4JpNvyFqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

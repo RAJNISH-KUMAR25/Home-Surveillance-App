@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Frag_dash"
+    android:background="#EDE6D6">
+    <!-- Inside your layout XML file (e.g., activity_main.xml) -->
+    <!-- Inside your layout XML file (e.g., activity_main.xml) -->
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="300dp"
+        android:layout_height="270dp"
+        android:backgroundTint="#fff"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="25dp">
+
+
+        <WebView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/webview"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20dp"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/home">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/door" />
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginLeft="4dp"
+            android:text="Home"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:id="@+id/close"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:layout_marginTop="74dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="140dp"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/garage123">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:textSize="17dp"
+            android:layout_marginLeft="4dp"
+            android:textColor="#000"
+
+            android:textStyle="bold"
+            android:text="Garage"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off"
+            android:id="@+id/off"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:layout_marginTop="74dp"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="35dp"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="7dp"
+            android:src="@drawable/garage" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="260dp"
+        app:cardCornerRadius="10dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lawn1">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="40dp"
+            android:layout_marginLeft="3dp"
+            android:layout_height="60dp"
+            android:src="@drawable/grass" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open"
+            android:id="@+id/open"
+            android:textColor="@color/yellow"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"
+            android:layout_marginTop="74dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginLeft="4dp"
+            android:text="Lawn"/></RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="50dp"
+        app:cardCornerRadius="25dp">
+
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/man" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:textAlignment="center"
+            android:layout_width="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+</RelativeLayout>
